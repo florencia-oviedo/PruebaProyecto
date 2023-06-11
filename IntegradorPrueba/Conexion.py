@@ -39,10 +39,9 @@ class Conexion:
                 log.error(f'Ocurrió un error: {e}')
                 sys.exit()
         else:
+            cls._cursor = cls.obtenerConexion().cursor()
             return cls._cursor
 
 
-if __name__ == '__main__':
-    Conexion.obtenerConexion()
-    Conexion.obtenerCursor()
+
 
