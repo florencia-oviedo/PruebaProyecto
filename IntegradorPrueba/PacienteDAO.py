@@ -11,6 +11,7 @@ class PacienteDAO:
     _ELIMINAR = "DELETE FROM paciente WHERE id_paciente=%s"
 
     _SELECCIONAR_PACIENTE = "SELECT * FROM paciente WHERE id_paciente=%s"
+    _LISTA_PACIENTE_ELIMINADO="SELECT * FROM pacientes_eliminados"
 
     # Definimos los metodos de clase
     @classmethod
@@ -77,6 +78,23 @@ class PacienteDAO:
                 registro_eliminado = cursor.rowcount
                 log.debug(f'El registro eliminado es: {registro_eliminado}')
                 return cursor.rowcount
+            
+    # pacientes eliminados
+    @classmethod
+    def pacientes_eliminados(cls,)        :
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                cursor.execute(cls._LISTA_PACIENTE_ELIMINADO)
+                registros= cursor.fetchall()
+                pacientes=[]
+                for registro in registros:
+                    id_paciente= registro[0]
+                    paciente= Paciente(registro[1],registro[2],registro[3],registro[4])
+                    paciente.id_paciente(id_paciente)
+                    pacientes.append(paciente)
+                return pacientes
+    
+    
 
 
 

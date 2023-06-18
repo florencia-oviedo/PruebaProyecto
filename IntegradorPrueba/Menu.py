@@ -11,11 +11,12 @@ while opcion != 6:
     print('3. Eliminar paciente')
     print('4. Buscar paciente')
     print('5. Listado de pacientes')
-    print('6. Salir')
+    print('6. Listado de pacienes eliminados')
+    print('7. Salir')
     opcion = int(input('Digite una opción de menú(1-6): '))
 
     if opcion == 1:
-        print('****Ingreso de nuevo Paciente**** ')
+        print('****Ingreso datos del nuevo Paciente**** ')
         nombre_paciente = input('Digite el nombre del paciente: ')
         apellido_paciente = input('Digite el apellido del paciente: ')
         peso_paciente =  float(input('Digite el peso en kg del paciente: '))
@@ -45,6 +46,7 @@ while opcion != 6:
 
     elif opcion == 3:
         print('****Eliminar paciente**** ')
+       
         try:
             id_paciente = int(input('Digite el id del paciente a editar: '))
             paciente_eliminado = PacienteDAO.eliminar(id_paciente)
@@ -71,8 +73,14 @@ while opcion != 6:
         pacientes = PacienteDAO.seleccionar()
         for paciente in pacientes:
             log.debug(paciente)
+            
+    elif opcion ==6:
+        print('****Historial pacientes eliminados')
+        pacientes=PacienteDAO.pacientes_eliminados()
+        for paciente in pacientes:
+            log.debug(paciente)
 
-    elif opcion==6:
+    elif opcion==7:
         print("Muchas gracias por visitar nutrición digital, lo esperamos nuevamente")
         print("******* Team Developers CodeStyle *******")
         developers = ['Dana Angellotti','Florencia Oviedo', 'Juan Pablo Ayoroa', 'Adriana Da Silva', 'Fernando Rojas', 'Ivana Germir', 'Gabriela Silva','Martin Verstraeten']
