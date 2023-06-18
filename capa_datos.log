@@ -1,0 +1,26 @@
+06:50:16 PM:ERROR [Conexion.py:26] Ocurrió un error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+06:51:30 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000029B906CE570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+06:51:30 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000029B9036D460; closed: 0>
+06:51:30 PM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 14
+        Nombre: flor, 
+        Apellido: oviedo, 
+        Peso: 49.0,
+        Altura: 1.45
+        IMC: 23.31
+        
+        
+06:51:30 PM:DEBUG [Menu.py:26] Paciente insertado: 1
+07:28:23 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000021E62DCE570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+07:28:23 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000021E62A6D460; closed: 0>
+07:28:23 PM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 15
+        Nombre: jose, 
+        Apellido: morale, 
+        Peso: 60.0,
+        Altura: 1.7
+        IMC: 20.76
+        
+        
+07:28:23 PM:DEBUG [Menu.py:26] Paciente insertado: 1
