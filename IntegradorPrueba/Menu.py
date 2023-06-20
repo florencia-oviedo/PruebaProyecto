@@ -4,18 +4,19 @@ from logger_base import log
 
 print("**************************************************************** BIENVENIDOS A NUTRICION DIGITAL ****************************************************************");
 opcion = None
-while opcion != 6:
+while opcion != 7:
     print('****Menú principal**** ')
     print('1. Ingresar un nuevo paciente ')
     print('2. Editar paciente')
     print('3. Eliminar paciente')
     print('4. Buscar paciente')
     print('5. Listado de pacientes')
-    print('6. Salir')
-    opcion = int(input('Digite una opción de menú(1-6): '))
+    print('6. Listado de pacienes eliminados')
+    print('7. Salir')
+    opcion = int(input('Digite una opción de menú(1-7): '))
 
     if opcion == 1:
-        print('****Ingreso de nuevo Paciente**** ')
+        print('****Ingreso datos del nuevo Paciente**** ')
         nombre_paciente = input('Digite el nombre del paciente: ')
         apellido_paciente = input('Digite el apellido del paciente: ')
         peso_paciente =  float(input('Digite el peso en kg del paciente: '))
@@ -45,8 +46,9 @@ while opcion != 6:
 
     elif opcion == 3:
         print('****Eliminar paciente**** ')
+       
         try:
-            id_paciente = int(input('Digite el id del paciente a editar: '))
+            id_paciente = int(input('Digite el id del paciente a eliminar: '))
             paciente_eliminado = PacienteDAO.eliminar(id_paciente)
             log.debug('Paciente eliminado')
 
@@ -71,8 +73,14 @@ while opcion != 6:
         pacientes = PacienteDAO.seleccionar()
         for paciente in pacientes:
             log.debug(paciente)
+            
+    elif opcion ==6:
+        print('****Historial pacientes eliminados****')
+        pacientes=PacienteDAO.pacientes_eliminados()
+        for paciente in pacientes:
+            log.debug(paciente)
 
-    elif opcion==6:
+    elif opcion==7:
         print("Muchas gracias por visitar nutrición digital, lo esperamos nuevamente")
         print("******* Team Developers CodeStyle *******")
         developers = ['Dana Angellotti','Florencia Oviedo', 'Juan Pablo Ayoroa', 'Adriana Da Silva', 'Fernando Rojas', 'Ivana Germir', 'Gabriela Silva','Martin Verstraeten']

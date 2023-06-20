@@ -1,0 +1,226 @@
+06:50:16 PM:ERROR [Conexion.py:26] Ocurrió un error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+06:51:30 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000029B906CE570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+06:51:30 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000029B9036D460; closed: 0>
+06:51:30 PM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 14
+        Nombre: flor, 
+        Apellido: oviedo, 
+        Peso: 49.0,
+        Altura: 1.45
+        IMC: 23.31
+        
+        
+06:51:30 PM:DEBUG [Menu.py:26] Paciente insertado: 1
+07:28:23 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000021E62DCE570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+07:28:23 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000021E62A6D460; closed: 0>
+07:28:23 PM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 15
+        Nombre: jose, 
+        Apellido: morale, 
+        Peso: 60.0,
+        Altura: 1.7
+        IMC: 20.76
+        
+        
+07:28:23 PM:DEBUG [Menu.py:26] Paciente insertado: 1
+10:07:30 AM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x000001BA6666E570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+10:07:30 AM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x000001BA6630D460; closed: 0>
+10:07:30 AM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 16
+        Nombre: Fernando, 
+        Apellido: Fernandez, 
+        Peso: 70.0,
+        Altura: 1.7
+        IMC: 24.22
+        
+        
+10:07:30 AM:DEBUG [Menu.py:26] Paciente insertado: 1
+10:08:14 AM:DEBUG [PacienteDAO.py:78] El registro eliminado es: 1
+10:08:14 AM:DEBUG [Menu.py:51] Paciente eliminado
+10:11:57 AM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x00000183AF63E570; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+10:11:57 AM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x00000183AF2DD460; closed: 0>
+10:11:57 AM:DEBUG [PacienteDAO.py:55] Paciente insertado : 
+        Id Paciente: 17
+        Nombre: Ariel, 
+        Apellido: Betancud, 
+        Peso: 78.0,
+        Altura: 1.75
+        IMC: 25.47
+        
+        
+10:11:57 AM:WARNING [Menu.py:26] Paciente insertado: 1
+11:55:42 AM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000029706FBE460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+11:55:42 AM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000029706C5D460; closed: 0>
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 2
+        Nombre: Florencia, 
+        Apellido: Oviedo, 
+        Peso: 48.0,
+        Altura: 1.57
+        IMC: 19.47
+        
+        
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 3
+        Nombre: Rodrigo, 
+        Apellido: Campo, 
+        Peso: 67.0,
+        Altura: 1.89
+        IMC: 18.76
+        
+        
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 10
+        Nombre: Sergio, 
+        Apellido: Rammus, 
+        Peso: 67.0,
+        Altura: 1.89
+        IMC: 18.76
+        
+        
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 11
+        Nombre: Antonio, 
+        Apellido: Rios, 
+        Peso: 67.0,
+        Altura: 1.79
+        IMC: 20.91
+        
+        
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 12
+        Nombre: Juan Pa, 
+        Apellido: Ayoroa, 
+        Peso: 56.0,
+        Altura: 1.64
+        IMC: 20.82
+        
+        
+11:55:42 AM:DEBUG [Menu.py:50] 
+        Id Paciente: 17
+        Nombre: Ariel, 
+        Apellido: Betancud, 
+        Peso: 78.0,
+        Altura: 1.75
+        IMC: 25.47
+        
+        
+11:57:07 AM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000016AB3A4E460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+11:57:07 AM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000016AB36ED460; closed: 0>
+01:23:26 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000023F9BBBE460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+01:23:26 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000023F9BC166C0; closed: 0>
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 2
+        Nombre: Florencia, 
+        Apellido: Oviedo, 
+        Peso: 48.0,
+        Altura: 1.57
+        IMC: 19.47
+        
+        
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 3
+        Nombre: Rodrigo, 
+        Apellido: Campo, 
+        Peso: 67.0,
+        Altura: 1.89
+        IMC: 18.76
+        
+        
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 10
+        Nombre: Sergio, 
+        Apellido: Rammus, 
+        Peso: 67.0,
+        Altura: 1.89
+        IMC: 18.76
+        
+        
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 11
+        Nombre: Antonio, 
+        Apellido: Rios, 
+        Peso: 67.0,
+        Altura: 1.79
+        IMC: 20.91
+        
+        
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 12
+        Nombre: Juan Pa, 
+        Apellido: Ayoroa, 
+        Peso: 56.0,
+        Altura: 1.64
+        IMC: 20.82
+        
+        
+01:23:26 PM:DEBUG [Menu.py:75] 
+        Id Paciente: 17
+        Nombre: Ariel, 
+        Apellido: Betancud, 
+        Peso: 78.0,
+        Altura: 1.75
+        IMC: 25.47
+        
+        
+01:29:33 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000026A99FBE460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+01:29:33 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000026A9A0166C0; closed: 0>
+01:33:39 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x000002C4849E6460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+01:33:39 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x000002C484A326C0; closed: 0>
+01:33:39 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 14
+        Nombre: Alberto, 
+        Apellido: Fernandez, 
+        Peso: 80.0,
+        Altura: 1.78
+        IMC: 25.25
+        
+        
+01:33:39 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 15
+        Nombre: Cristina, 
+        Apellido: Fernandez, 
+        Peso: 60.0,
+        Altura: 1.72
+        IMC: 20.28
+        
+        
+01:33:39 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 16
+        Nombre: Fernando, 
+        Apellido: Fernandez, 
+        Peso: 70.0,
+        Altura: 1.7
+        IMC: 24.22
+        
+        
+04:37:46 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x000002A77DBAE460; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+04:37:46 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x000002A77DC066C0; closed: 0>
+04:37:46 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 14
+        Nombre: Alberto, 
+        Apellido: Fernandez, 
+        Peso: 80.0,
+        Altura: 1.78
+        IMC: 25.25
+        
+        
+04:37:46 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 15
+        Nombre: Cristina, 
+        Apellido: Fernandez, 
+        Peso: 60.0,
+        Altura: 1.72
+        IMC: 20.28
+        
+        
+04:37:46 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 16
+        Nombre: Fernando, 
+        Apellido: Fernandez, 
+        Peso: 70.0,
+        Altura: 1.7
+        IMC: 24.22
+        
+        

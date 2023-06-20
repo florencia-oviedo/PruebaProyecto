@@ -509,3 +509,74 @@ LINE 1: DELETE FROM persona WHERE id_paciente=3
         
         
 05:05:47 PM:DEBUG [Menu.py:39] Pacientes actualizado: 1
+06:45:51 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x00000262D3FD1580; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+06:45:51 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x00000262D624DA80; closed: 0>
+06:45:51 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 14
+        Nombre: Alberto, 
+        Apellido: Fernandez, 
+        Peso: 80.0,
+        Altura: 1.78
+        IMC: 25.25
+        
+        
+06:45:51 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 15
+        Nombre: Cristina, 
+        Apellido: Fernandez, 
+        Peso: 60.0,
+        Altura: 1.72
+        IMC: 20.28
+        
+        
+06:47:51 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000017E9B2A1580; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+06:47:51 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000017E9D10DA80; closed: 0>
+06:47:51 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 14
+        Nombre: Alberto, 
+        Apellido: Fernandez, 
+        Peso: 80.0,
+        Altura: 1.78
+        IMC: 25.25
+        
+        
+06:47:51 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 15
+        Nombre: Cristina, 
+        Apellido: Fernandez, 
+        Peso: 60.0,
+        Altura: 1.72
+        IMC: 20.28
+        
+        
+06:53:25 PM:DEBUG [Conexion.py:23] Conexión exitosa <connection object at 0x0000013B5C961580; dsn: 'user=postgres password=xxx dbname=centronutricional host=127.0.0.1 port=5432', closed: 0>
+06:53:25 PM:DEBUG [Conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x0000013B5EBEDA80; closed: 0>
+06:53:25 PM:DEBUG [PacienteDAO.py:79] El registro eliminado es: 1
+06:53:25 PM:DEBUG [Menu.py:53] Paciente eliminado
+06:54:21 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 14
+        Nombre: Alberto, 
+        Apellido: Fernandez, 
+        Peso: 80.0,
+        Altura: 1.78
+        IMC: 25.25
+        
+        
+06:54:21 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 15
+        Nombre: Cristina, 
+        Apellido: Fernandez, 
+        Peso: 60.0,
+        Altura: 1.72
+        IMC: 20.28
+        
+        
+06:54:21 PM:DEBUG [Menu.py:81] 
+        Id Paciente: 11
+        Nombre: Antonio, 
+        Apellido: Rios, 
+        Peso: 67.0,
+        Altura: 1.79
+        IMC: 20.91
+        
+        
