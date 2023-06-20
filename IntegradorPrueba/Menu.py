@@ -4,7 +4,7 @@ from logger_base import log
 
 print("**************************************************************** BIENVENIDOS A NUTRICION DIGITAL ****************************************************************");
 opcion = None
-while opcion != 6:
+while opcion != 7:
     print('****Menú principal**** ')
     print('1. Ingresar un nuevo paciente ')
     print('2. Editar paciente')
@@ -13,7 +13,7 @@ while opcion != 6:
     print('5. Listado de pacientes')
     print('6. Listado de pacienes eliminados')
     print('7. Salir')
-    opcion = int(input('Digite una opción de menú(1-6): '))
+    opcion = int(input('Digite una opción de menú(1-7): '))
 
     if opcion == 1:
         print('****Ingreso datos del nuevo Paciente**** ')
@@ -48,7 +48,7 @@ while opcion != 6:
         print('****Eliminar paciente**** ')
        
         try:
-            id_paciente = int(input('Digite el id del paciente a editar: '))
+            id_paciente = int(input('Digite el id del paciente a eliminar: '))
             paciente_eliminado = PacienteDAO.eliminar(id_paciente)
             log.debug('Paciente eliminado')
 
@@ -75,7 +75,7 @@ while opcion != 6:
             log.debug(paciente)
             
     elif opcion ==6:
-        print('****Historial pacientes eliminados')
+        print('****Historial pacientes eliminados****')
         pacientes=PacienteDAO.pacientes_eliminados()
         for paciente in pacientes:
             log.debug(paciente)

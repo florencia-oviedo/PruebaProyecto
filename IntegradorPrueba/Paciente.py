@@ -21,7 +21,7 @@ class Paciente:
         
         '''
 
-        # getter and setters
+    # getter and setters
     @property
     def id_paciente(self):
         return self._id_paciente
@@ -73,6 +73,3 @@ class Paciente:
         return self._imc
 
 
-if __name__ == '__main__':
-    paciente1 = Paciente(1,'flor','ovi',48.5,1.57)
-    print(paciente1.imc)
